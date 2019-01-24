@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { observer, inject } from 'mobx-react'
+
 @inject("GeneralStore")
 //adding our GeneralStore as a prop of the ResInput component
 @observer
